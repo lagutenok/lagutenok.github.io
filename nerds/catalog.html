@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nerds</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="inner">
+          <header class="main-header">
+            <div class="container clearfix">
+                <div class="main-header-top clearfix">
+                    <figure class="logo">
+                        <a href="#"><img src="pict/logo.png" width="139" height="56" alt="nerds logo"></a>
+                    </figure>
+                    <div class="basket">
+                        <a href="#"><i class="icon-basket"></i>Корзина</a>
+                    </div>
+                    <nav class="main-nav">
+                        <ul>
+                            <li>
+                                <a href="index.html">Студия</a>
+                            </li>
+                            <li class="active">
+                                <a href="catalog.html">Магазин</a>
+                            </li>
+                            <li>
+                                <a href="#">Клиенты</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="main-header-bottom">
+                    <h1>Добро пожаловать в магазин<br> 
+готовых макетов</h1>         
+                </div>                </div>
+        </header>
+        <div class="container clearfix">
+            <div class="catalog-form clearfix">
+                <form action="/echo" method="post">
+                    <div class="section-title">Стоимость</div>
+                    <div class="range-filter">
+                        <div class="range-controls">
+                            <div class="scale"><div style="width:70%" class="bar"></div></div>
+                            <div class="toggle min-toggle"></div>
+                            <div class="toggle max-toggle"></div>
+                        </div>
+                        <div class="price-controls">
+                            <label class="min-price">
+                                от<input name="min-price" type="text" value="0">
+                            </label> 
+                            <label class="max-price">
+                                до<input name="max-price" type="text" value="15 000">
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="section-title">Сетка:</div>
+                    
+                    <input name="greed" type="radio" id="adaptive" checked>
+                    <label for="adaptive">Адаптивная</label><br>
+                    
+                    <input name="greed" type="radio" id="fixed">
+                    <label for="fixed">Фиксированная</label><br>
+                    
+                    <input name="greed" type="radio" id="rubber">
+                    <label for="rubber">Резиновая</label>
+                    
+                    
+                    <div class="section-title">Особенности:</div>
+                    
+                    <input name="slider" type="checkbox" id="slider">
+                    <label for="slider">Слайдер</label><br>
+                    
+                    <input name="advantages" type="checkbox" id="advantages">
+                    <label for="advantages">Блок преимуществ</label><br>
+                    
+                    <input name="news" type="checkbox" id="news">
+                    <label for="news">Новости</label><br>
+                    
+                    <input name="gallery" type="checkbox" id="gallery">
+                    <label for="gallery">Галерея</label><br>
+                    
+                    <input name="basket" type="checkbox" id="basket">
+                    <label for="basket">Корзина</label>
+                    
+                    <input class="btn" type="submit" value="Показать">
+                </form>
+            </div>
+            <div class="catalog-models clearfix">
+                <section class="sortby clearfix">
+                    <div class="sortby-title">Сортирoвать:</div>
+                    <ul class="sortby-list">
+                        <li class="active"><a href="#">По цене</a></li>
+                        <li><a href="#">По типу</a></li>
+                        <li><a href="#">По функционалу</a></li>
+                    </ul>
+                </section>
+                <div class="catalog clearfix">
+                    <section class="model">
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>  
+                        <a href="#">
+                            <img src="img/catalog-1.jpg">   
+                        </a> 
+                        <div class="catalog-pop-up">
+                            <div class="catalog-pop-up-name">Sunset</div>
+                            <p class="catalog-pop-up-descriptiom">Интернет-магазин с личным кабинетом</p>
+                            <a class="btn" href="#">10 000 р.</a>
+                        </div>
+                    </section>
+                    <section class="model">
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>  
+                        <a href="#">
+                            <img src="img/catalog-2.jpg">   
+                        </a> 
+                        <div class="catalog-pop-up">
+                            <div class="catalog-pop-up-name">Sunset</div>
+                            <p class="catalog-pop-up-descriptiom">Интернет-магазин с личным кабинетом</p>
+                            <a class="btn" href="#">10 000 р.</a>
+                        </div>
+                    </section>
+                    <section class="model">
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>  
+                        <a href="#">
+                            <img src="img/catalog-3.jpg">   
+                        </a> 
+                        <div class="catalog-pop-up">
+                            <div class="catalog-pop-up-name">Sunset</div>
+                            <p class="catalog-pop-up-descriptiom">Интернет-магазин с личным кабинетом</p>
+                            <a class="btn" href="#">10 000 р.</a>
+                        </div>
+                    </section>
+                    <section class="model">
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>  
+                        <a href="#">
+                            <img src="img/catalog-4.jpg">   
+                        </a> 
+                        <div class="catalog-pop-up">
+                            <div class="catalog-pop-up-name">Sunset</div>
+                            <p class="catalog-pop-up-descriptiom">Интернет-магазин с личным кабинетом</p>
+                            <a class="btn" href="#">10 000 р.</a>
+                        </div>
+                    </section>
+                    <section class="model">
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>  
+                        <a href="#">
+                            <img src="img/catalog-5.jpg">   
+                        </a> 
+                        <div class="catalog-pop-up">
+                            <div class="catalog-pop-up-name">Sunset</div>
+                            <p class="catalog-pop-up-descriptiom">Интернет-магазин с личным кабинетом</p>
+                            <a class="btn" href="#">10 000 р.</a>
+                        </div>
+                    </section>
+                    <section class="model">
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>
+                        <div class="decor-circle"></div>  
+                        <a href="#">
+                            <img src="img/catalog-6.jpg">   
+                        </a> 
+                        <div class="catalog-pop-up">
+                            <div class="catalog-pop-up-name">Sunset</div>
+                            <p class="catalog-pop-up-descriptiom">Интернет-магазин с личным кабинетом</p>
+                            <a class="btn" href="#">10 000 р.</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="pagination">
+                    <span>1</span>
+                    <a href="#">2</a>
+                    <a href="#" >3</a>
+                    <a href="#">Следующая</a>
+                </div>
+            </div>
+        </div>    
+            <div class="map clearfix">
+                <div class="container">
+                    <div class="contacts">
+                        <h2><strong>Nerds</strong> design studio</h2>
+                        <section>
+                            350000, Краснодар,<br> 
+                            ул. Головатого, 100
+                            <span class="tel-number">тел. +7(861) 275-75-75</span>
+                        </section>
+                        <a href="#" class="btn">Напишите нам</a>
+                    </div>
+                </div>    
+            </div>
+        <footer class="main-footer">
+            <div class="container clearfix">
+                <div class="footer-social">
+                    <ul>
+                        <li class="btn">
+                            <a href="#"><i class="icon-vk"></i></a>    
+                        </li>
+                        <li class="btn">
+                            <a href="#"><i class="icon-facebook"></i></a>
+                        </li>
+                        <li class="btn">
+                            <a href="#"><i class="icon-instagramm"></i></a>
+                        </li>
+                    </ul>
+                </div>    
+                <div class="footer-ads">
+                    <h2 class="footer-ads-title">Давайте дружить, это выгодно!</h2>
+                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </div>
+        </footer>
+        <div class="modal-content">
+            <form class="send-form" action="/echo" method="post">
+                <input type="text" class="user-name" name="name" placeholder="Представьтесь, пожалуйста" id="name">
+                <label for="name">Ваше имя:</label>
+                
+                <input type="text" class="user-email" name="email" placeholder="Для отправки ответа" id="e-mail">
+                <label for="e-mail">Ваш e-mail:</label>
+                
+                <textarea class="user-text" name="text" id="text" placeholder="В свободной форме"></textarea>
+                <label for="text">Текст письма:</label>
+                
+                <button type="submit" class="btn">Отправить</button>
+                
+                <button type="submit" class="btn">Отмена</button>
+                
+            </form>
+        </div>
+    </body>
+</html>

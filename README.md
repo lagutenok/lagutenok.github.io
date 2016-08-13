@@ -1,2 +1,6 @@
 # lagutenok.github.io
-Layouts
+Layouts:
+/Barbershop/
+/nerds/
+/tehnomart/
+/blog/
